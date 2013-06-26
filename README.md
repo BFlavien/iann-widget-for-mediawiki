@@ -25,8 +25,11 @@ You can configure it as an iFrame (it is iFrame-based).
 <iannwidget width="720" height="700" scrolling="auto" frameborder="0" /> is the default values if you don't set them.
 
 *width  (default "720") : The width of the widget
+
 *height (default "700") : The height of the widget
+
 *scrolling (default "auto") : ["auto" / "yes" / "no"] for enabling / disabling the scrolling.
+
 *frameborder (default "0") : ["1" / "0"] for enabling / disabling the frameborder
 
 
