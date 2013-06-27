@@ -13,7 +13,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name'           => 'iAnnWidget',
 	'version'        => '0.1',
 	'author'         => 'Flavien Bossiaux', 
-	'url'            => 'https://github.com/BFlavien/iann-plugin-for-mediawiki/wiki',
+	'url'            => 'https://github.com/BFlavien/iann-widget-for-mediawiki',
 	'descriptionmsg' => 'iannwidget-descriptionmsg',
 	'description'    => 'iannwidget-description'
 );
