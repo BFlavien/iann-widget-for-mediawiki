@@ -36,14 +36,14 @@ You can configure it as an iFrame (it is iFrame-based).
 Troubleshooting
 ===============
 
-iAnn widget is an extremely simple extension; all it does is convert a "ianntwidget" tag into an "<iframe></iframe>" tag, with the stream of iAnn (http://iann.pro/node/15).
+iAnn widget is an extremely simple extension; all it does is convert an "iannwidget" tag into an "<iframe></iframe>" tag, with the stream of iAnn (http://iann.pro/node/15).
 There is default values to prevent errors from the users.
 
 
 Wiki Compatibility
 ==================
 
-WikiTwidget uses ResourceLoader, which was introduced in MW 1.17. I only have access to a wiki running 1.19.2, so I cannot guarantee that iAnn widget will work on earlier versions of MediaWiki.
+iAnn Widget uses ResourceLoader, which was introduced in MW 1.17. I only have access to a wiki running 1.19.2, so I cannot guarantee that iAnn widget will work on earlier versions of MediaWiki.
 Another way to do it is this method : http://iann.pro/node/6
 
 
@@ -60,4 +60,4 @@ To Do
 *Use this method : http://iann.pro/node/6 for higher customization
 
 
-Please email comments, questions, or bug reports to bossiaux.flavien at gmail.org.
+Please email comments, questions, or bug reports to bossiaux.flavien at gmail.com.
