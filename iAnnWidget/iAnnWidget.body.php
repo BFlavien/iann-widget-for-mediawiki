@@ -14,19 +14,19 @@ class iAnnWidget {
 		// Example of the output :  <iframe width="720" height="700" scrolling="auto" frameborder="0" src="http://iann.pro/viewer/events.html"></iframe>
 		
 		if( isset($args['width']) && $args['width'] ){
-			$width = $args['width'];
+			$width = htmlspecialchars( $args['width'] );
 		}
 		
 		if( isset($args['height']) && $args['height'] ){
-			$height = $args['height'];
+			$height = htmlspecialchars( $args['height'] );
 		}
 		
 		if( isset($args['scrolling']) && $args['scrolling'] ){
-			$scrolling = $args['scrolling'];
+			$scrolling = htmlspecialchars( $args['scrolling'] );
 		}
 		
 		if( isset($args['frameborder']) && $args['frameborder'] ){
-			$frameborder = $args['frameborder'];
+			$frameborder = htmlspecialchars( $args['frameborder'] );
 		}
 		
 		$wgOut->addModules( 'iAnnWidget' );
