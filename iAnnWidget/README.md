@@ -33,7 +33,7 @@ Default values
 Troubleshooting
 ===============
 
-iAnn widget is an extremely simple extension; all it does is convert an "iannwidget" tag into an `<iframe></iframe>` tag, with the stream of iAnn (http://iann.pro/node/15).
+iAnn widget is an extremely simple extension; all it does is convert an `<iannwidget />` tag into an `<iframe></iframe>` tag, with the stream of iAnn (http://iann.pro/node/15).
 
 There is default values to prevent errors from the users.
 
