@@ -6,15 +6,12 @@ iAnn Widget for MediaWiki
 Installation
 ============
 
- 1. Download and extract the files in a
-    directory called "iAnnWidget" in
-    your extensions/ folder.
+ 1. Download and extract the files in a directory called "iAnnWidget" in your extensions/ folder.
  2. Add the following code to your LocalSettings.php (at the bottom)
 
  `require_once( "$IP/extensions/iAnnWidget/iAnnWidget.php" );`
 
  3. Navigate to **Special:Version** on your wiki to verify that the extension is successfully installed.
-
 
 Configuration parameters
 ========================
@@ -40,7 +37,6 @@ iAnn widget is an extremely simple extension; all it does is convert an "iannwid
 
 There is default values to prevent errors from the users.
 
-
 Wiki Compatibility
 ==================
 
@@ -48,13 +44,11 @@ iAnn Widget uses ResourceLoader, which was introduced in MW 1.17. I only have ac
 
 Another way to do it is this method : http://iann.pro/node/6
 
-
 Change Log
 ==========
 
 v0.1:
 *Initial version
-
 
 To Do
 =====
@@ -62,4 +56,7 @@ To Do
  - Use this method : http://iann.pro/node/6 for higher customization
 
 
-Please email comments, questions, or bug reports to bossiaux.flavien at gmail.com.
+----------
+
+
+Please email comments, questions, or bug reports to bossiaux.flavien at gmail.org.
