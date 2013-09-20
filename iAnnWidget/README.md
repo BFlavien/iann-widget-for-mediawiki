@@ -16,7 +16,7 @@ Installation
 Configuration parameters
 ========================
 
-Just insert the `<iannwidget/>` tag where you want the stream to appear. If you miss the `/` tag, it can remove page content.
+Just insert the `<iannwidget/>` tag where you want the stream to appear. If you miss the `/` in the tag, it can remove page content.
 
 You can configure it as an **iframe** (it is iframe-based).
 
